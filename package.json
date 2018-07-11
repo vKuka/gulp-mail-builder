@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vKuka/gulp-email-builder.git"
+    "url": "https://github.com/vKuka/gulp-mail-builder.git"
   },
   "keywords": [],
   "author": "vKuka",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vKuka/gulp-email-builder/issues"
+    "url": "https://github.com/vKuka/gulp-mail-builder/issues"
   },
-  "homepage": "https://github.com/vKuka/gulp-email-builder",
+  "homepage": "https://github.com/vKuka/gulp-mail-builder",
   "devDependencies": {
     "browser-sync": "^2.24.5",
     "del": "^3.0.0",
