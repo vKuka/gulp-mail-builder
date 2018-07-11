@@ -23,10 +23,13 @@ var smtpInfo = { //Настройки SMTP для отправки сообще�
  */
 gulp.task('serve', function () {
   browserSync.init({
-    server: {
-      baseDir: './app',
-      index: 'index.html' //Интексный файл
-    }
+		server: {
+			baseDir: './app',
+    },
+    tunnel: true,
+    host: 'localhost',
+    port: 9000,
+    logPrefix: "mail_builder"
   });
   gulp.watch(['./app/pug/**/*.pug', './app/scss/**/*.scss'], gulp.series('build')); // Отслеживание изменений Pug и Sass-файлов
   gulp.watch('*.html').on('change', reload); // Обновление браузера
